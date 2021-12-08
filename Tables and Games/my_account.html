@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url('color.jpg');
+        }
+        
+        input[type=text],
+        input[type=password],
+        input[type=username],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>TableSolutions - Support</title>
+    <link rel="stylesheet" type="text/css" href="tables.css" />
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 id="name">TableSolutions</h1>
+    </div>
+    <div class="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#tables">Tables</a>
+        <a href="#games">Games</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#support">Support</a>
+        <a class="active" href="#my_account">My Account</a>
+        <a href="#cart">Cart</a>
+    </div>
+
+    <div class="footer">
+        <p id="company">TableSolutions</p>
+        <p>Jaira</p>
+        <p>Josiah</p>
+        <p>Scott</p>
+        <p>Gabriela</p>
+    </div>
+
+    <h1 style="text-align: center; font-size: 50px; font-weight: bolder;">TABLESOLUTIONS My Account:</h1>
+
+    <h2 style="text-align: center; font-weight: bolder;">Please Create your TableSolutions account:</h2>
+
+    <form style="font-size: xx-large;" action="https://webdevbasics.net/scripts/demo.php" method="POST">
+        <label for="first_name">First Name:</label> <br>
+        <input type="text" id="first_name" name="first_name" placeholder="Your first name.."><br>
+
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" placeholder="Your last name.."><br>
+
+        <label for="username">Username:</label><br>
+        <input type="username" id="username" name="username" placeholder="Your Username.."><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Your Password.."><br>
+
+        <input type="submit" value="Create">
+
+        <h3 style="text-align: center; font-weight: bolder;">Please login to your TableSolutions account:</h3>
+
+        <label for="first_name">First Name:</label> <br>
+        <input type="text" id="First_name" name="first_name" placeholder="Your first name.."><br>
+
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="Last_name" name="last_name" placeholder="Your last name.."><br>
+
+        <label for="username">Username:</label><br>
+        <input type="username" id="Username" name="username" placeholder="Your Username.."><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="Password" name="password" placeholder="Your Password.."><br>
+
+        <input type="submit" value="login">
+    </form>
+
+
+</body>
+
+</html>

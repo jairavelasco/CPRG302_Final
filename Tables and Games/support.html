@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url('color.jpg');
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>TableSolutions - Support</title>
+    <link rel="stylesheet" type="text/css" href="tables.css" />
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 id="name">TableSolutions</h1>
+    </div>
+    <div class="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#tables">Tables</a>
+        <a href="#games">Games</a>
+        <a href="#accessories">Accessories</a>
+        <a class="active" href="#support">Support</a>
+        <a href="#my_account">My Account</a>
+        <a href="#cart">Cart</a>
+    </div>
+
+    <div class="footer">
+        <p id="company">TableSolutions</p>
+        <p>Jaira</p>
+        <p>Josiah</p>
+        <p>Scott</p>
+        <p>Gabriela</p>
+    </div>
+
+    <h1 style="text-align: center; font-size: 50px; font-weight: bolder;">TABLESOLUTIONS SUPPORT:</h1>
+
+    <h2 style="text-align: center; font-weight: bolder;">Please fill this form, so that we could know how can we help you!</h2>
+
+    <div class="video">
+        <iframe width="610" height="500" src="https://www.youtube.com/embed/spdescYFqIE">
+            </iframe>
+    </div>
+
+    <form style="font-size:large; font-weight: bolder;" action="https://webdevbasics.net/scripts/demo.php" method="POST">
+        <label for="fname">First name:</label>
+        <input type="text" id="first_name" name="first_name"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="last_name" name="last_name"><br>
+
+        <p style="font-size: xx-large; font-weight: bolder;">Feedback to enhance our product:</p>
+
+        <label for="product">1. How satisfied are you with our product?</label>
+        <select id="product" name="product" size="5" multiple>
+          <option value="excellent">Excellent</option>
+          <option value="very_good">Very Good</option>
+          <option value="good">Good</option>
+          <option value="fair_enough">Fair Enough</option>
+          <option value="poor">Poor</option>
+        </select><br>
+
+        <p>2. How could we develop our customer service? </p>
+        <textarea name="message" rows="10" cols="50">Please let us know what are your thoughts on how we could improve our customer service.
+        </textarea> <br>
+
+        <div class="video">
+            <iframe width="610" height="459" src="https://www.youtube.com/embed/yyUD07Me6mc">
+                </iframe>
+        </div>
+
+        <label for="board_games">3. Choose what board games do you think is the best:</label>
+        <select id="board_games" name="board_games" size="6" multiple>
+          <option value="Dungeons&Dragons">Dungeons & Dragons</option>
+          <option value="Monopoly">Monopoly</option>
+          <option value="Scrabble">Scrabble</option>
+          <option value="Catan">Catan</option>
+          <option value="Chess">Chess</option>
+          <option value="Pandemic">Pandemic</option>
+        </select><br>
+
+
+        <p>4. How satisfied are you with our services?</p>
+        <label for="services">4. How satisfied are you with our services?</label>
+        <select id="services" name="services" size="5" multiple>
+          <option value="very_unsatisfied">Very Unsatisfied</option>
+          <option value="unsatisfied">Unsatisfied</option>
+          <option value="neutral">Neutral</option>
+          <option value="satisfied">Satisfied</option>
+          <option value="very_satisfied">Very Satisfied</option>
+        </select><br>
+
+
+        <p>5. How could we support you better?</p>
+        <textarea name="message" rows="10" cols="50">Please let us know what are your thoughts on how we could support you better.
+        </textarea> <br>
+        <button id="submit" name="submit">Submit</button>
+        <button id="reset" name="reset">Reset</button>
+    </form>
+
+</body>
+
+</html>

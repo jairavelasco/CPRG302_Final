@@ -1,0 +1,31 @@
+.header {
+    text-align: center;
+    background-color: #60463B;
+    color: white;
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 200%;
+    background-color: #60463B;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.footer p {
+    float: left;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.header {
+    text-align: center;
+    background-color: #60463B;
+    color: white;
+    padding: 20px;
+}
